@@ -23,7 +23,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: SOOS SCA Analysis
-        uses: soos-io/soos-sca-github-action@2
+        uses: soos-io/soos-sca-github-action@v1.2.3
         with:
           project_name: "Github_testing" # Also you can use the var ${{ github.repository }}
           sarif: "true"
